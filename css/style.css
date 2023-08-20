@@ -1,0 +1,87 @@
+/* 
+font-family: 'DM Serif Text', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; 
+
+
+-- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-pink: #f472b6;
+  --color-green: rgba(74, 222, 128, 0.77);
+  --color-orange--dark: #fb923c;
+  --color-orange: orange;
+  --color-purple: #a78bfa;
+}
+
+html {
+  /* Setting 1rem = 10px, 10px/16px = 0.625 */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  background-color: var(--color-green);
+  padding: 4.4rem 0;
+}
+
+/****************************/
+/* HEADER */
+/****************************/
+
+.main-header {
+  display: flex;
+  align-items: center;
+  padding: 1.8rem 3.2rem;
+  justify-content: space-between;
+  border-bottom: 4px solid black;
+}
+
+.back-to-home:link,
+.back-to-home:visited {
+  font-family: "Righteous", cursive;
+  color: #222;
+  font-size: 4.4rem;
+  text-decoration: none;
+
+  display: inline-block;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 3.2rem;
+  font-size: 1.8rem;
+}
+
+.main-nav-icon {
+  font-size: 2.4rem;
+}
+
+.main-nav-item:link,
+.main-nav-item:visited {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.main-nav-item:hover,
+.main-nav-item:active {
+  color: var(--color-green);
+  text-decoration: underline;
+}

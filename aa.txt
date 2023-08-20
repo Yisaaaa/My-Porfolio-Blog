@@ -1,0 +1,117 @@
+   <main class="main">
+      <section class="container about-me">
+        <div class="about-me-text-box rounded-corners shadow--lg">
+          <p class="student">First Year BSCS student</p>
+          <p class="school">Studies @National University Manila</p>
+          <p class="location">Located in Taguig, 🇵🇭</p>
+          <a href="#" class="btn margin-top-auto border shadow--sm"
+            >See my projects &rightarrow;</a
+          >
+        </div>
+        <div class="about-me-img-box rounded-corners shadow--lg">
+          <img
+            class="about-me-img"
+            src="img/square.jpg"
+            alt="A photo of Luis Ryan D. Sanisit"
+          />
+        </div>
+      </section>
+    </main>
+
+    style
+
+
+    /****************************/
+/* ABOUT ME */
+/****************************/
+.about-me {
+  display: grid;
+  grid-template-columns: 75fr 25fr;
+  gap: 3.2rem;
+}
+
+.about-me-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.2rem 2.4rem;
+  background-color: var(--color-pink);
+  height: 80%;
+}
+
+.about-me-img {
+  width: 100%;
+  display: block;
+}
+
+.student {
+  font-family: "Outfit", sans-serif;
+  font-size: 5.2rem;
+  margin-left: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.school {
+  font-family: "Outfit", sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.location {
+  font-family: "Sanchez", sans-serif;
+  font-size: 3.2rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-family: "Sanchez", sans-serif;
+  font-size: 1.8rem;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 1.2rem 1.8rem;
+}
+
+
+general
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.shadow--sm {
+  box-shadow: 0.5rem 0.5rem black;
+  transition: all 0.2s;
+}
+
+.shadow--sm:hover {
+  box-shadow: 0.3rem 0.3rem black;
+}
+
+.shadow--lg {
+  box-shadow: 0.65rem 0.65rem black;
+  transition: all 0.3s;
+}
+
+.shadow--lg:hover {
+  box-shadow: 0.4rem 0.4rem black;
+}
+
+.rounded-corners {
+  border: 3px solid black;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.margin-top-auto {
+  margin-top: auto;
+}
