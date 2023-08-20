@@ -55,7 +55,7 @@ main {
 
 .back-to-home:link,
 .back-to-home:visited {
-  font-family: "Righteous", cursive;
+  font-family: "Righteous", sans-serif;
   color: #222;
   font-size: 4.4rem;
   text-decoration: none;
@@ -93,6 +93,7 @@ main {
   display: grid;
   grid-template-columns: 75fr 25fr;
   gap: 3.2rem;
+  margin-bottom: 3.2rem;
 }
 
 .about-me-text-box {
@@ -136,4 +137,18 @@ main {
   color: black;
   text-decoration: none;
   padding: 1.2rem 1.8rem;
+}
+
+/****************************/
+/* ABOUT ME 2*/
+/****************************/
+.about-me-2 {
+}
+
+.keeps-me-busy {
+  background-color: var(--color-orange--dark);
+}
+
+.who-am-i {
+  background-color: var(--color-orange);
 }
