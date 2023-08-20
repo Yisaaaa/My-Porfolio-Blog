@@ -3,7 +3,7 @@
 }
 
 .grid-item-container {
-  padding: 1rem 2.4rem;
+  padding: 1rem 2.4rem 3.2rem;
 }
 
 .grid {
@@ -73,4 +73,10 @@
 .tag-item:hover {
   box-shadow: 0.6rem 0.6rem black;
   background-color: #4ade80;
+}
+
+.link:link,
+.link:visited {
+  cursor: pointer;
+  color: inherit;
 }

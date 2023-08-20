@@ -102,30 +102,36 @@ main {
   align-items: flex-start;
   padding: 3.2rem 2.4rem;
   background-color: var(--color-pink);
-  height: 80%;
+  height: 85%;
 }
 
 .about-me-img {
   width: 100%;
   display: block;
+  /* display: none; */
 }
 
-.student {
+.my-name {
   font-family: "Outfit", sans-serif;
   font-size: 5.2rem;
-  margin-left: 0.8rem;
+  /* margin-left: 0.8rem; */
   margin-bottom: 1.2rem;
 }
 
-.school {
+.school,
+.course {
   font-family: "Outfit", sans-serif;
   font-size: 2.8rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.course {
+  margin-bottom: 1rem;
 }
 
 .location {
   font-family: "Sanchez", sans-serif;
-  font-size: 3.2rem;
+  font-size: 3.6rem;
 }
 
 .btn:link,
@@ -151,4 +157,8 @@ main {
 
 .who-am-i {
   background-color: var(--color-orange);
+}
+
+.who-am-i-text {
+  font-size: 1.8rem;
 }
