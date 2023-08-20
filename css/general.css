@@ -9,3 +9,35 @@
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+
+.shadow--sm {
+  box-shadow: 0.5rem 0.5rem black;
+  transition: all 0.2s;
+}
+
+.shadow--sm:hover {
+  box-shadow: 0.3rem 0.3rem black;
+}
+
+.shadow--lg {
+  box-shadow: 0.65rem 0.65rem black;
+  transition: all 0.3s;
+}
+
+.shadow--lg:hover {
+  box-shadow: 0.4rem 0.4rem black;
+}
+
+.rounded-corners {
+  border: 3px solid black;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.margin-top-auto {
+  margin-top: auto;
+}
